@@ -1,0 +1,186 @@
+@import url(./reset.css);
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.2rem;
+}
+
+h1{
+    margin: 16px 0px 17px;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 75px;
+    margin-right: 20px;
+}
+
+.column-1{
+    padding: 0px 25px 10px 0px;
+}
+
+.column-2{
+    width: 55%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+#menu-image{
+    margin-right: 1.563rem;
+}
+
+#logo{
+    margin-top: .125rem;
+}
+
+form{
+    display: flex;
+    flex-direction: row;
+    color: rgba(248, 248, 248, 1);
+    width: 21.75rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+}
+
+#search-bar{
+    width: 20rem;
+}
+
+#search-button{
+    color: rgba(248, 248, 248, 1);
+    border: 1px solid rgb(204, 204, 204);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 12px;
+    padding-right: 17px;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 10rem;
+}
+
+.video-title{
+    word-break: break-word;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.channel-infos{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.channel-info{
+    margin-left: 10px;
+}
+
+.channel-name{
+    font-weight: bold;
+}
+
+.channel-subscribes{
+    color: rgba(81, 81, 81, 1);
+    font-style: normal;
+}
+
+.rating{
+    display: flex;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.like{
+    display: flex;
+    align-items: center;
+}
+
+.like p{
+    margin-left: 5px;
+    margin-right: 35px;
+}
+
+.unlike{
+    display: flex;
+    align-items: center;
+}
+
+.unlike p{
+    margin-left: 5px;
+}
+
+.share{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.share p{
+    margin-left: 5px;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bolder;
+    margin-right: 25px;
+}
+
+.download p{
+    margin-left: 5px;
+}
+
+.video-actions{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 0px 17px;
+}
+
+.description{
+    font-size: 14px;
+    color: rgba(81, 81, 81, 1);
+    margin: 17px 0px 0px 0px;
+    width: 60%;
+    
+}
+
+.recomended-video{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px 0px 10px 8px;
+}
+
+.recomended-channel{
+    font-size: 12px;
+    color: rgba(81, 81, 81, 1);
+    margin: 0px 0px 10px 8px;
+}
+
+.info-views{
+    font-size: 12px;
+    color: rgba(81, 81, 81, 1);
+    margin: 0px 0px 10px 8px;
+}
+
+
+[class|="suggestion"]{
+    display: flex;
+    margin-bottom: 16px;
+}
